@@ -25,7 +25,7 @@ import { Toast } from "mint-ui";
 export default {
   data() {
     return {
-      newslist: [] // 新闻列表
+      newslist: {} // 新闻列表
     };
   },
   created() {
